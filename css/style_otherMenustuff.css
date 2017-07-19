@@ -1,0 +1,461 @@
+/*
+Menu za headr ostatakl stranice
+*/
+
+
+
+
+
+
+
+
+/*font*/
+
+
+/*Lato regular*/
+@font-face {
+  font-family: 'FontAwesome';
+  src:url('../fonts/LatoLatin-Regular.woff'), 
+  url('../fonts/LatoLatin-Regular.eot'), 
+  url('../fonts/LatoLatin-Regular.ttf'), 
+  url('../fonts/LatoLatin-Regular.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/*Lato light*/
+@font-face {
+  font-family: 'Helvetica-Light';
+  src:url('../fonts/LatoLatin-Light.woff') , 
+  url('../fonts/LatoLatin-Light.ttf'),
+  url('../fonts/LatoLatin-Light.eot'),
+  url('../fonts/LatoLatin-Light.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*Lato light*/
+@font-face {
+  font-family: 'Helvetica-Light';
+  src:url('../fonts/HelveticaRegular/HelveticaRegular.woff') , 
+  url('../fonts/HelveticaRegular/HelveticaRegular.ttf'),
+  url('../fonts/HelveticaRegular/HelveticaRegular.eot'),
+  url('../fonts/HelveticaRegular/HelveticaRegular.woff2');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src:url('../fonts/LatoLatin-Medium.woff') , 
+  url('../fonts/LatoLatin-Medium.ttf'),
+  url('../fonts/LatoLatin-Medium.eot'),
+  url('../fonts/LatoLatin-Medium.woff2');
+  font-weight: normal;
+  /*font-style: italic;*/
+  /*font-style: oblique;*/
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Lato-Italic';
+  
+  src:url('../fonts/LatoLatin-Light.woff') , 
+  url('../fonts/LatoLatin-Light.ttf'),
+  url('../fonts/LatoLatin-Light.eot'),
+  url('../fonts/LatoLatin-Light.woff2');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/**/
+.otherMenuPage
+{
+	display:block;
+    margin-top: -60px;
+	width:1300px;
+	position:right;
+	right:100px;
+	position: absolute;
+
+	z-index:1000;
+}
+
+
+.kontakt {
+	margin-top:60px;
+	padding-left:100px;
+}
+
+
+
+
+
+.menuH3 {
+	line-height: 125% !important;
+    letter-spacing: 0.6px!important;
+	/*font-family:'Lato-Italic'!important;*/
+	font-family: 'FontAwesome' !important;
+	font-weight: normal !important;
+	color:#ffffff !important;
+	/*text-transform:uppercase;*/
+	
+    cursor: pointer; 
+	cursor: hand;
+}
+
+
+.menuH3 h3 {
+		
+		color: #D3D3D3 !important;
+	    font-family: 'FontAwesome' !important;
+	    font-weight: normal !important;
+}
+
+
+.menuH3 :hover {
+	color:#ffffff !important;
+	text-shadow: 1px 1px #ffd700;
+	 transition: all 0.5s ease;
+}
+
+
+
+
+/*za efekte izrada progama > saznajte više*/
+
+.findOutMore {
+	line-height: 125% !important;
+    letter-spacing: 0.6px!important;
+	/*font-family:'Lato-Italic'!important;*/
+	font-family: 'Helvetica-Bold' !important;
+	font-weight: normal !important;
+	color:#ffffff !important;
+	/*text-transform:uppercase;*/
+	
+    cursor: pointer; 
+	cursor: hand;
+}
+
+
+.findOutMore :hover {
+	color:#ffffff !important;
+	text-shadow: 1px 1px #AA193C;
+	transition: all 0.5s ease;
+}
+
+
+
+.line {
+	
+	color:#A0A09F;
+  
+	
+	
+}
+
+
+/*=============================menu header drugi======================================*/
+
+.MobMenu
+{
+	margin-top:-10px;
+	margin-right:20px;
+		
+	
+}
+
+.pkOpen {
+	font-size:15px;
+	color:green;
+	
+}
+
+
+.pkOpen :hover{
+	
+	color:white;
+}
+
+
+
+.pkClose {
+	font-size:15px;
+	color:red;
+	
+}
+
+
+.pkClose :hover{
+	
+	color:white;
+}
+
+
+
+
+
+.menu2
+{
+    display:box;
+    margin-top: 10px;
+	float:left;
+}
+
+
+
+.m1
+{
+	float:left;
+	padding-left:5px;
+}
+
+.m2
+{
+   float:left;
+   padding-left:15px;
+}
+
+
+
+.m3
+{
+	float:left;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+.menu3
+{
+    display:box;
+	margin-top: 0px;
+	float:left;
+ 
+
+	
+}
+
+
+
+.m4
+{
+	float:left;
+	padding-left:5px;
+}
+
+.m5
+{
+   float:left;
+   padding-left:45px;
+}
+
+
+
+.m6
+{
+	float:left;
+	padding-left:35px; 
+}
+
+.m7 /*kontakt*/
+{
+	float:left;
+	padding-left:115px; 
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+.otherMenuPage_Mob  
+{
+	float:right;
+	margin-top: 0px;
+    padding-top: 20px;
+	text-align:left;
+	list-style:  inside;
+	display:none;
+}
+
+.otherMenuPage_Mob li {display:block; }
+
+.otherMenuPage_Mob li :hover {color:red; }
+
+
+
+
+
+
+
+
+/*==============shadow efect============================================================*/
+
+.shadow {
+    
+     background-color:#4193F7;
+     box-shadow: 10px 10px 5px #4193F7;
+    
+}
+
+
+
+
+
+/*==============mobile============================================================*/
+
+
+@media only screen and (min-width: 1441px) {
+	
+	.otherMenuPage{ display:box; margin-top: 0px; width:700px; float:left; margin-right:10px; margin-left:10px;}
+	
+	.MobMenu { display:none;}
+	.otherMenuPage_Mob {display:none; }
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width:1440px) {
+	
+	.otherMenuPage{ display:box; margin-top: -10px; width:700px; float:right; margin-right:10px; margin-left:10px;}
+	.menu2 {width:560px; }
+	.menu3 {width:560px; }
+	
+	.menuH3 {line-height: 120% !important; letter-spacing: 0.0px!important; font-size:15px !important;}
+
+    .menuH3 h3 {line-height: 120% !important; letter-spacing: 0.0px!important; font-size:15px !important;}
+	.m1 {float:left;padding-left:5px;}
+    .m2{ padding-left:10px;}
+	.m3{ padding-left:8px;}
+
+	.m4 {float:left;padding-left:5px;}
+    .m5 { padding-left:35px;}
+	.m6 { padding-left:21px;}
+	.Mkontakt {padding-right:17px;}
+
+    .otherMenuPage_Mob {display:none; }
+
+	.MobMenu {display:none;}
+}
+
+
+
+
+@media  screen and (device-width : 600px) {
+   
+   .otherMenuPage_Mob { float:right; margin-top: 100px;  text-align:right; list-style:inside; padding-right:5px;}
+   
+   .MobMenu { margin-top:140px; position:apsolute; z-index:1000; margin-right:130px;}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+		
+		
+    .otherMenuPage{ display:none; }
+	
+	
+   .otherMenuPage_Mob { float:right; margin-top: -50px; padding-top: 5px; text-align:right; list-style:inside; padding-right:5px;}
+	
+	
+	.Mkontakt {	display:none; }
+	
+
+	 
+	/*.pkClose { padding-right:5px; float:right;}*/
+	 
+	 
+	.MobMenu {float:right; margin-top:-90px; position:apsolute; z-index:1000;}
+    
+	 
+	
+
+   
+	
+	
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+
+	.otherMenuPage{ display:none; }
+	.otherMenuPage_Mob { float:left; margin-top: -20px; padding-top: 3px; text-align:left; list-style:inside; padding-left:120px;}
+	
+     .MobMenu { margin-top:-100px; margin-left:328px; float:left;}
+	 
+	/* .pkClose { padding-left:60px; padding-top:5px; padding-bottom:10px;}*/
+	
+
+	
+	
+	
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------ANIMATE---------------------------------------------------------------------------*/
+
+
+.picturElement
+{
+	/*
+    position:absolute;
+    top:20%;
+    left:20%;
+    width:150px; 
+    height:150px;
+    background:#f00;
+	*/
+}
+
+
+.picturElement :hover{
+	cursor:wait;
+}
+
+
+.spin {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2.5s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+
+
+

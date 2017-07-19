@@ -1,0 +1,758 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+   
+   
+   
+   
+@media  only screen and (min-width: 1501px)  
+{
+    .book_sh { width: 50%; height: 50%; padding-top: 50px; padding-bottom:40px;}
+}  
+   
+   
+   
+   
+   
+   
+   
+@media only screen and (min-width: 1200px)
+{
+
+     .grmFlg { display:none;}
+     /*.animateLetter { display:none;}*/
+       .service-list{ margin-bottom:30px;}
+	.c-logo-part ul li{ margin:0 15px;}
+	.form{ margin:0 0 0 20px}
+        .header{ padding:60px 0;}
+	/*.main-nav{ display:block !important; }
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+       
+	   		  
+		   .logo_sfera{ margin-top: -60px; margin-left: 30px;}
+		  
+		  .logo_sfera img { margin-top: -150px; float:right;}
+  
+    .main-nav{ display:none; position:absolute; left:0;  top:0px; padding-top: 20px; margin:0 auto;  float: none;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	.main-nav li a:hover{color:#7cc576}
+        .res-nav_click{ display:block;}
+        .web_desing_picture { -moz-text-align-last: center; align-content: center;}
+         
+         .k1{  font-size: 100px !IMPORTANT;} 
+         .k2{  font-size: 100px !IMPORTANT;} 
+         .k3{  font-size: 100px !IMPORTANT;} 
+         .k4{  font-size: 100px !IMPORTANT;} 
+         .k5{  font-size: 100px !IMPORTANT;} 
+         
+         
+         .adWords{margin-top: 0px;}
+		 
+		 
+		 
+		     /*--------------webdesing--------------*/
+ 
+ .webdesing {width:100%;}
+ 
+ .Title_mobile{display:none;}
+ 
+ .book_sh { width: 56%; height: 92%; padding-top: 50px; padding-bottom:40px;}
+	 /*.book_sh { display:none;}*/
+         
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+	/****Ipad Landscape 1024 Container 970 lg, md****/
+	.grmFlg { display:none;}
+	.service-list{ margin-bottom:30px;}
+	.c-logo-part ul li{ margin:0 15px;}
+	.form{ margin:0 0 0 20px}
+        .header{ padding:60px 0;}
+	/*.main-nav{ display:block !important; }
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+       
+  
+        .main-nav{ display:none; position:absolute; left:0;  top:0px; padding-top: 20px; margin:0 auto;  float: none;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	.main-nav li a:hover{color:#7cc576}
+        .res-nav_click{ display:block;}
+        .web_desing_picture { -moz-text-align-last: center; align-content: center;}
+         
+        
+         .k1{  font-size: 55px !IMPORTANT;} 
+         .k2{  font-size: 55px !IMPORTANT;} 
+         .k3{  font-size: 55px !IMPORTANT;} 
+         .k4{  font-size: 55px !IMPORTANT;} 
+         .k5{  font-size: 55px !IMPORTANT;} 
+
+         
+        .fon  { display:none;}
+        
+      /* .parallax {background-attachment: scroll;  }
+        .parallax_boardPeople {background-attachment: scroll;*/
+       /* .parallax_Tech{visibility: hidden;  height: 0px; background-attachment: scroll;}
+         /* .fon > h2 {font-size: 45px;}
+    
+         .k1{ visibility: hidden; font-size: 45px;} 
+         .k2{ visibility: hidden; font-size: 45px;} 
+         .k3{ visibility: hidden; font-size: 45px;} 
+         .k4{ visibility: hidden; font-size: 45px;} 
+         .k5{ visibility: hidden; font-size: 45px;} 
+        
+          /* .animateLetter {visibility: hidden;}*/
+           
+          /* .SferaMobileP {font-size: 25px; padding-top: 50px; padding-bottom: 50px; padding-left: 50px;}*/
+		  
+		
+		  
+		  
+		   .logo_sfera{ margin-top: -60px; margin-left: 30px;}
+		  
+		  .logo_sfera img { margin-top: -150px; float:right;}
+		  
+		  
+           
+         .adWords{margin-top: 0px;}
+		 
+		   .lang {  margin-right: 70px; }	
+		 
+		 /*--------------webdesing--------------*/
+ 
+ .webdesing {width:100%;}
+ 
+ 
+   /*-------------------marking-------------------*/
+ 
+ .imgbranding{width:75%; margin-bottom:20px; margin-left:70px;}
+
+
+.brand{ padding-top: 70px; margin-left:10px;}
+
+
+   /*-------------------web rjesenja-------------------*/
+
+ .WrjesenjaImg { padding-top:100px; }
+
+
+
+  /*--------------------------------------programi-----------------------------*/
+
+   .softImg { padding-top:130px; }
+
+
+     
+  /*-----------------------------naslovi---------------------------*/
+  
+  
+  	    .Title_mobile{display:none;  padding-top:10px;}
+	   
+	   .Title_desktop { display:box; }
+
+    
+       
+}	
+
+
+/*samo za potrait android*/
+@media  screen and (device-width : 600px) {
+   
+   
+   	.social-link{ margin-left:0px;}
+	  
+   .menu_social_iconsFoot { padding-left:200px;}
+    .menu_social_iconsFoot img{ width:10%;}
+   
+   
+   .lang { float:left; margin-left: 30px; margin-top:0px;}	
+   	.grmFlg { display:none;}
+   
+   		   .logo_sfera{ margin-top: -40px; }
+		  
+		  .logo_sfera img { margin-top: -100px; float:right;}
+   
+   
+   
+    .web_desing_picture { padding-left:20px; width:85%;} 
+	
+	.vizual_ponuda { padding-top: 20px;  padding-left: 10px;  margin-left: -20px;}
+	
+	.fon  { display:none;}
+     
+  /*-----------------------------naslovi---------------------------*/
+  
+  
+  	 .Title_mobile{display:box; padding-top:10px;}
+	   
+	   .Title_desktop { display:none; }
+	   
+	   
+	   
+  /*--------------------------------------programi-----------------------------*/
+
+   .softImg { padding-top:80px; padding-bottom:50px; padding-left:50px;}
+   
+    .cLine { display:none;}
+}
+
+
+
+
+   
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/****Ipad Portrait 768 Container 750 sm****/
+        
+        
+	body{ font-size:15px;}
+
+	p{ line-height:20px ;}
+	.header h1{ font-size:46px;}
+	/*.main-nav ul li a{ padding:14px;}*/
+        .header{ padding:60px 0;}
+	.small-logo{ padding:0 20px;}
+	h2{ font-size:30px}
+	h6{ font-size:16px;}
+	h3{ font-size:15px;}
+	.service-list{ margin-bottom:20px; font-size:15px;}
+	.featured-work p.padding-b{ padding-bottom:15px;}
+	.main-section{ padding:70px 0;}
+	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
+	.c-logo-part ul li a{ display:block;}
+	.c-logo-part ul li a img{ display:block;}
+	.form{ margin:0;}
+	.contact-info-box{ margin:0 ;}
+	.social-link{ margin:0;}
+	
+		.grmFlg { display:none;}
+		
+		
+	
+	/*.main-nav{ display:block !important; }
+	.main-nav li a{ padding:8px 15px;  }*/
+        
+	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
+	.Portfolio-box{ height:250px;}*/
+        
+        .parallax {background-attachment: scroll; height: 400px;}
+        .parallax_boardPeople {background-attachment: scroll; height: 300px;}
+        .main-nav{ display:none; position:absolute; left:0;  top:0px; padding-top: 20px; margin:0 auto; flote :none;  width:300px;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	.main-nav li a:hover{color:#7cc576}
+        .res-nav_click{ display:block;}
+        
+        
+        .fon  { display:none;}
+         .fon > h2 {font-size: 35px; display:none;}
+         .parallax_Tech{visibility: hidden;  height: 0px; background-attachment: scroll;}
+         .k1{font-size: 50px !IMPORTANT;} 
+         .k2{font-size: 50px !IMPORTANT;} 
+         .k3{font-size: 50px !IMPORTANT;} 
+         .k4{font-size: 50px !IMPORTANT;} 
+         .k5{font-size: 50px !IMPORTANT;;} 
+       
+	
+	     .menu_social_icons{padding-left: 70px;}
+		 
+		 	.social-link{ margin-left:0px;}
+	.menu_social_iconsFoot { padding-left:260px;}
+    .menu_social_iconsFoot img{ width:10%;}	 
+		 
+		 
+         .animateLetter { display:none;}
+         
+         .SferaMobileP {font-size: 20px; padding-top: 50px; padding-bottom: 50px; padding-left: 50px;}
+         
+          .adWords{margin-top: 20px;}
+          
+          .event {  text-align: center;}
+          .event img{ width: 90%; height: 100%;   }  
+		  
+
+		  .imageKontakt img { max-width:50%;}
+		  
+		   .thankyou {width:700px;}
+		   
+		   
+		   .lang {  margin-right: 10px;   margin-top: -100px;}	
+		   
+	
+			   .parallax_boardPeople {display: none;}
+			  
+			 
+ 
+ 
+  /*-------------------marking-------------------*/
+ 
+ .imgbranding{width:65%; margin-bottom:10px; margin-left:30px;}
+
+
+.brand{ padding-top: 0px; margin-left:0px; padding-bottom:50px;}
+
+
+.dig_marketing_img { margin-left:0px;}
+
+.marketing_ponuda{ float: none; margin-right:0px; text-align:center;}
+
+
+
+
+
+/*----------------------webdesing--------------*/
+ 
+ .webdesing {width:100%;}
+ 
+ 
+ .WrjesenjaImg {width:65%; margin-bottom:10px; margin-left:100px; padding-top:100px;}
+ 
+ .shopimg { width: 70%;  padding-top:50px; margin-left:50px;}
+ 
+ 
+ .volgas_h3 { padding-left:0px;}
+
+  .volgas_h3Seo {float:none; padding-left:0px;}
+ 
+ .seoimg { width: 80%;  padding-top:120px; padding-left:150px;}
+ 
+    .web_desing_picture { padding-left:80px; width:85%;} 
+	
+	.vizualniimg { padding-left:120px; width:85%;}
+	
+	.vizual_ponuda { padding-top: 20px;  padding-left: 10px;  margin-left: -20px;}
+
+  
+
+  
+  
+  
+  
+  /*--------------------------------------programi-----------------------------*/
+  
+  .volgas_h3Soft { padding-left:0px; float:none; padding-bottom:50px;}
+  
+
+
+.volgas_h3fun {padding-top: 220px; float:none;}
+
+
+
+   .softImg { padding-top:150px;  width:100%;}
+   
+   .softIn {padding-bottom:50px;}
+   
+   .ul_radimoBox {padding-left: 0px;}
+  
+  
+  
+  /*-----------------------mobilne appp---------------------------------*/
+  
+  .mobImg { width:60%;}
+  
+  
+  
+  /*------------------------busines---------------------------------------*/
+  
+  .businesImg {width:70%; padding-top:30px;}
+  
+  
+  
+  
+  
+  
+  
+     
+  /*-----------------------------naslovi---------------------------*/
+  
+  
+  	 .Title_mobile{display:box; padding-top:10px;}
+	   
+	   .Title_desktop { display:none; }
+	   
+	   
+	   
+	      
+  /*------------------------busines---------------------------------------*/
+  
+
+   
+  .businesImg {width:90%; padding-top:40px;  }
+  
+  
+   .cLine { display:none;}
+   
+   
+      #logo {display:none;}
+	
+}
+
+
+
+/*android landscape*/
+@media only screen and (max-width: 767px) {
+	/****Mobile Landscape 480 Container 100% xs****/
+	body{ font-size:12px;}
+
+	h2{ font-size:26px;}
+	h3{ font-size:14px;}
+	h6{ font-size:16px; margin-bottom:40px;}
+	p{ line-height:18px;}
+	.service-list{ font-size:12px; margin-bottom:20px;}
+	.we-create li{ font-size:13px; padding:0 0 0 8px}
+	.header h1{ font-size:28px;}
+	.header{ padding:60px 0;}
+	.main-section{ padding:60px 0 70px;}
+	
+	   .XMenu_separator{ margin-left: 221px; padding-top:20px;}
+	
+	
+	.main-nav{ display:none; position:absolute; left:0; width:300px; padding-top: 0px; top:0px; margin:0 auto; flote : none; }
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	
+	
+		.grmFlg { display:none;}
+	
+	
+	.main-nav li a:hover{color:#7cc576}
+	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+	.team-leader-box:nth-of-type(3n){ margin:0 auto}
+	.res-nav_click{ display:block;}
+	.featured-work{ font-size:12px; margin-top:30px;}
+	.featured-box{ font-size:12px;}
+	.featured-box p{ line-height:18px; }
+	.c-logo-part ul a{ margin-bottom:5px;}
+	.main-section.team{ padding:60px 0 50px;}
+	.business-talking h2{ font-size:36px;}
+	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
+	.contact-info-box span{ line-height:18px;}
+	.social-link{ margin-left:30px;} 
+	.form{ margin:0 30px;}
+	.copyright{ font-size:12px;}
+	.business-talking a{ padding:10px 25px; font-size:14px;}
+	.main-section.contact{ padding:60px 0 70px}
+	.client-part-haead{ font-size:20px; line-height:30px;}
+	.link{ font-size:14px; padding:10px 25px;}
+	.logo{ width:100px;}
+	.main-section.contact{ background-size:contain;}
+	.Portfolio-nav li a{ padding:5px 16px;}
+	.Portfolio-nav li{ display:block;}
+	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	.isotope-item{ width:300px; margin:0px auto;}
+	.isotope{ width:400px; margin:0px auto;}
+	.Portfolio-box{}
+	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+          .parallax{height: 500px;  background-attachment: scroll;}
+         .fon > h2 { display:none; font-size: 25px;}
+         .parallax_Tech{visibility: hidden;  height: 0px;}
+         .k1{ font-size: 50px !IMPORTANT;} 
+         .k2{font-size: 50px !IMPORTANT;} 
+         .k3{font-size: 50px !IMPORTANT;} 
+         .k4{font-size: 50px !IMPORTANT;} 
+         .k5{font-size: 50px !IMPORTANT;} 
+	
+	.menu_social_icons{padding-left: 50px;}
+     
+	.social-link{ margin-left:0px;}
+		.menu_social_iconsFoot { padding-left:210px;}
+		.menu_social_iconsFoot img{ width:10%;}
+
+
+
+	  
+   .logo_sfera img{ margin-top: -140px;}
+   .animateLetter { display:none;}
+   
+   
+    .SferaMobileP {font-size: 18px; padding-top: 50px; padding-bottom: 50px; padding-left: 20px;} 
+
+
+   .lang { margin-right: 10px; }	
+    
+     .parallax_boardPeople {display: none;}
+         /*=====================================================desing==========================================*/
+       .h3pouda {padding-left: 0px;}
+                 
+       .vizualniH3 { padding-left: 0px;}        
+         .logotip_ponuda {text-align: center;  padding-left: 95px;}
+         
+         .adWords{margin-top: 190px;}
+         
+           .event {  text-align: center;}
+         .event img{ width: 90%; height: 100%;   }
+		 
+		 
+		 
+		 
+		 /*==================================================================kontakt====================================*/
+                      .karta iframe {padding-left:5px; padding-right:5px;}	 
+					  .tcenter { margin: 0 auto;}
+					  .thankyou {width:500px;}
+					  
+					  
+					  
+					   
+  /*-------------------marking-------------------*/
+ 
+ .imgbranding{width:65%; margin-bottom:10px; margin-left:0px;}
+
+
+.brand{ padding-top: 0px; margin-left:0px; padding-bottom:50px;}
+
+.dig_marketing_img { margin-left:0px;}
+
+.marketing_ponuda{ float: none; margin-right:0px; text-align:center;}
+
+.vizualniimg {margin-left:70px;}
+
+
+
+
+/*------------------------web rjesenja---------------------*/
+
+
+.h3web {margin-top:0px;}
+
+.WrjesenjaImg {width:65%; margin-bottom:10px; margin-left:50px; }
+
+
+ .shopimg { width: 65%;  padding-top:20px; margin-left:50px;}
+
+ .volgas_h3 { padding-left:0px;}
+ 
+ 
+ .volgas_h3Seo {float:none; padding-left:0px;}
+ 
+ .seoimg { width: 80%;  padding-left:120px; padding-top:40px;}
+ 
+ 
+ 
+ 
+   /*--------------------------------------programi-----------------------------*/
+  
+  .volgas_h3Soft { padding-left:0px; float:none; padding-bottom:50px;}
+  
+  
+.volgas_h3fun {padding-top: 220px; float:none;}
+ 
+   .ul_radimoBox {padding-left: 0px;}
+ 
+ 
+ /*-------------------------mobile app----------------------------------*/
+ 
+  .mobImg { width:70%; padding-left:20px;}
+  
+  
+  
+  
+    
+  /*------------------------busines---------------------------------------*/
+  
+
+   
+  .businesImg {width:80%; padding-top:40px;  padding-left:170px; }
+       
+	   
+	   
+	   
+	   
+	   
+	     
+  /*-----------------------------naslovi---------------------------*/
+  
+  
+  	 .Title_mobile{display:box; padding-top:10px;}
+	   
+	   .Title_desktop { display:none; }
+	   
+	    .cLine { display:none;}
+		
+		
+		   #logo {display:none;}
+		
+		
+}
+
+
+/*android potret*/
+@media only screen and (max-width: 479px) {
+	/****Mobile Portrait 320 ****/
+	.contact-info-box{ margin-left:0px;}
+	.header{ padding:40px 0;}
+	.lang2P {display:none;}
+	.fon { display:none;}
+	.grmFlg { display:none;}
+       
+	.social-link{ margin-left:0px;}
+	.menu_social_iconsFoot { padding-left:80px;}
+    .menu_social_iconsFoot img{ width:15%;}
+		
+		
+	.form{ margin:0}
+	.c-logo-part ul li{ display:block;}
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
+	.Portfolio-box img { max-width:100%;}
+	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
+        .main-nav{ display:box; position:absolute; left:0; width:200px;  top:0px; margin:0 auto; flote : none;}
+        .XMenu_separator{ margin-left: 131px; width: 70px; height: 70px; border: 1px #fff solid; border-right: 0px #fff solid; border-radius: 0px 0px 0px 200px; padding-top:10px;}
+        .Xmenu_icon{font-size: 15px; float: right; margin-right: 20px;}
+        .parallax_Tech{visibility: hidden;  height: 0px;}
+        .parallax{height: 350px;  background-attachment: scroll;}
+        
+        .fon > h2 {font-size: 13px !IMPORTANT;}
+        .logo_sfera {visibility: hidden;   width: 130px;}/*display: none;*/
+        .parallax_boardPeople {height: 350px;}
+        
+        .k1{font-size: 30px !IMPORTANT;} 
+        .k2{font-size: 30px !IMPORTANT;} 
+        .k3{font-size: 30px !IMPORTANT;} 
+        .k4{font-size: 30px !IMPORTANT;} 
+        .k5{font-size: 30px !IMPORTANT;} 
+           
+        .menu_social_icons{padding-left: 50px;}
+           
+       .logo_sfera img{ margin-top: 10px;}
+           
+      /*rješenja veličoine*/
+           
+     .SferaMobileP {font-size: 12px; padding-top: 50px; padding-bottom: 50px; padding-left: 20px; color: #ffffff !IMPORTANT;}   
+      
+     .animateLetter { display:none;}
+     .adWords{margin-top: 5px;}
+     
+     .adWords img{padding-top:33px; }
+     
+     .event {  text-align: center;}
+     .event img{ width: 90%; height: 100%;   }  
+     
+     .marketing_ponuda {float: none;}
+     
+     .medij {margin-top: 0px;}
+     
+     
+     
+     
+    .inRjesenja h3{padding-bottom: 5px; padding-top: 10px; }
+
+.inRjesenja p{ padding-left: 5px; padding-left:5px;}
+
+
+.kako_radimoh3 { float: none; padding-left: 0px; }
+          
+.kako_radimoBox h3 {float: none !IMPORTANT;  padding-left: 0px; padding-top: 20px !IMPORTANT;}	
+
+.kako_radimoBox p {float: none; padding-left: 0px; padding-bottom: 40px;}
+
+.ul_radimoBox { float: none !IMPORTANT ; padding-left: 0px; padding-top: 0px; margin-top: 20px; }
+
+
+.footer_proces { padding-top: 30px;  padding-left: 0px; }
+
+.karta iframe {padding-left:5px; padding-right:5px;}	
+
+textarea {  max-width: 300px;}
+
+
+.tcenter { margin: 0 auto;}
+
+.thankyou {width:300px; font-size:15px; }
+
+
+ .lang { float:left; margin-left: 30px; margin-top:0px;}	
+ 
+ .parallax_boardPeople {display: none;}
+ 
+ 
+ /*--------------webdesing--------------*/
+ 
+ .webdesing {width:100%;}
+ 
+
+ 
+ .img-desing img{ padding-top: 0px; }
+ 
+ 
+ .vizualniimg { padding-top: 25px; margin-left: 25px;}
+ 	.vizual_ponuda { margin-left:-50px; }
+ 
+ 
+ .promo_img { padding-top:5px;   margin-left:60px;  }
+ 
+ 
+ 
+ 
+  
+  /*-------------------marking-------------------*/
+ 
+ .imgbranding{width:65%; margin-bottom:10px; margin-left:30px;}
+
+
+.brand{ padding-top: 0px; margin-left:0px; padding-bottom:50px;}
+
+.dig_marketing_img { margin-left:0px;}
+
+.marketing_ponuda{ float: none; margin-right:0px; text-align:center;}
+
+
+
+/*------------------------web rjesenja---------------------*/
+
+
+.h3web {margin-top:0px;}
+
+ .volgas_h3 { padding-left:0px;}
+ 
+ 
+.volgas_h3Seo {float:none; padding-left:0px;}
+
+
+ .seoimg { width: 80%;  padding-left:10px; padding-top:20px;}
+ 
+ 
+ 
+ 
+    /*--------------------------------------programi-----------------------------*/
+  
+  .volgas_h3Soft { padding-left:0px; float:none; padding-bottom:50px;}
+  
+  .volgas_h3fun {padding-top: 220px; float:none;}
+  
+    .ul_radimoBox {padding-left: 0px;}
+  
+   /*-------------------------mobile app----------------------------------*/
+ 
+
+
+  
+  /*------------------------busines---------------------------------------*/
+  
+  .businesImg {width:90%; padding-top:20px; padding-left:40px;}
+  
+  
+  
+  
+  
+  /*-----------------------------naslovi---------------------------*/
+  
+  
+  	 .Title_mobile{display:box; padding-top:10px;}
+	   
+	   .Title_desktop { display:none;}
+	   
+	   
+	   
+	   
+	   .cLine { display:none;}
+	   
+	   #logo {display:none;}
+
+}
